@@ -4,14 +4,16 @@ This repository provides a complete **Docker-based environment** to run [N8N](ht
 
 ## 📂 Project structure
 
+```
 .
 ├── docker-compose.yml # Docker services definition
 ├── .env # Environment variables (⚠️ do not commit to public repos!)
 ├── ngrok.yml # Ngrok tunnel configuration
 └── README.md # This guide
+```
 
 
-## 🛠 Included services
+## 🔧 Included services
 
 - **Postgres** → Database for N8N  
 - **Redis** → Cache / messaging  
