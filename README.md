@@ -50,7 +50,7 @@ docker compose down
 docker compose logs -f
 ```
 
-🌍 Access Points
+### 🌍 Access Points
 
 N8N → http://localhost:5678 or verifying the Ngrok container logs/dashboard on https://dashboard.ngrok.com/endpoints
 Waha → http://localhost:3000
@@ -58,7 +58,7 @@ Postgres → Port 5432
 Redis → Port 6379
 Ngrok → Displays public URL in logs
 
-📌 Restart from scratch
+### 📌 Restart from scratch
 ```
 docker compose down -v
 docker compose up -d --build
