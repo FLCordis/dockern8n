@@ -53,10 +53,15 @@ docker compose logs -f
 ### 🌍 Access Points
 
 N8N → http://localhost:5678 or verifying the Ngrok container logs/dashboard on https://dashboard.ngrok.com/endpoints
+
 Waha → http://localhost:3000
+
 Postgres → Port 5432
+
 Redis → Port 6379
+
 Ngrok → Displays public URL in logs
+
 
 ### 📌 Restart from scratch
 ```
