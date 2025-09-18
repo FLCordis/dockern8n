@@ -1,0 +1,17 @@
+# Arquivos sensíveis
+.env
+
+# Dados persistentes dos containers
+pgdata/
+waha_sessions/
+waha_media/
+n8n_data/
+
+# Logs
+*.log
+
+# Configs locais do Docker
+.docker/
+
+# Backup temporário
+*~
